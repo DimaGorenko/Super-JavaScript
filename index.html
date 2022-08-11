@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super JavaScript</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="banner ptb100">
+      <div class="container">
+          <div class="row text-center">
+              <div class="col-12">
+                  <img src="images/js.png" alt="logo" class="img-fluid">
+                  <h1 class="text-white mb-5">Супер курс по JavaScript</h1>
+                  <a href="#footer" class="btn btn-warning btn-lg mx-auto btn-custom text-uppercase">Заказать</a>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="about bg-black">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <h2 class="text-uppercase text-center mb-5 yellow-color">Об авторе</h2>
+                  <div class="row justify-content-center">
+                      <div class="col-xl-6 col-lg-12 text-white">
+                          <h3>Исмаил Усеинов</h3>
+                          <p>Занимаюсь веб-разработкой с 2013 года.</p>
+                          <p>В 2017 году основал обучающий YouTube канал ITDoctor. Делюсь своими 
+                             знаниями в области программирования и создания сайтов. Сформировал свою
+                             собственную методику обучения, которая позволяет ученикам максимально 
+                             эффективно осваивать изучаемый материал.</p>
+                          <p>Обучаю языкам HTML, CSS, JavaScript, PHP, работе с препроцессорами, 
+                             сборщиками и системой контроля версий Git, а также многому другому
+                             из мира веб-технологий. Уже более тысячи моих учеников научились
+                             создавать сайты самостоятельно и зарабатывать на этом деньги.</p>
+                      </div>
+                      <div class="col-xl-3 col-lg-12 text-center">
+                          <img src="images/author.png" alt="author" class="img-fluid">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="course ptb100">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <h2 class="text-uppercase yellow-color text-center mb-5">О курсе</h2>
+              </div>
+          </div>
+          <div class="row g-3 mb-5 text-center">
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                  <div class="h-100 p-3 bg-gray text-white">
+                      <div class="circle-custom">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#eebb12" class="bi bi-list-ol" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5z"/>
+                              <path d="M1.713 11.865v-.474H2c.217 0 .363-.137.363-.317 0-.185-.158-.31-.361-.31-.223 0-.367.152-.373.31h-.59c.016-.467.373-.787.986-.787.588-.002.954.291.957.703a.595.595 0 0 1-.492.594v.033a.615.615 0 0 1 .569.631c.003.533-.502.8-1.051.8-.656 0-1-.37-1.008-.794h.582c.008.178.186.306.422.309.254 0 .424-.145.422-.35-.002-.195-.155-.348-.414-.348h-.3zm-.004-4.699h-.604v-.035c0-.408.295-.844.958-.844.583 0 .96.326.96.756 0 .389-.257.617-.476.848l-.537.572v.03h1.054V9H1.143v-.395l.957-.99c.138-.142.293-.304.293-.508 0-.18-.147-.32-.342-.32a.33.33 0 0 0-.342.338v.041zM2.564 5h-.635V2.924h-.031l-.598.42v-.567l.629-.443h.635V5z"/>
+                          </svg>
+                      </div>
+                      <h5 class="text-center">Структурированный материал</h5>
+                      <div class="line-custom"></div>
+                      <p>Грамотно составленные уроки с наглядными практическими примерами способствуют лучшему усвоению материала.</p>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                  <div class="h-100 p-3 bg-gray text-white">
+                      <div class="circle-custom">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#eebb12" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                              <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
+                          </svg>
+                      </div>
+                      <h5 class="text-center">Платформа для обучения</h5>
+                      <div class="line-custom"></div>
+                      <p>Обучение проходит на платформе Stepik. На Stepik вы можете приобрести курс по выгодной цене и получить сертификат.</p>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                  <div class="h-100 p-3 bg-gray text-white">
+                      <div class="circle-custom">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#eebb12" class="bi bi-graph-up" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z"/>
+                          </svg>
+                      </div>
+                      <h5 class="text-center">Пожизненный доступ</h5>
+                      <div class="line-custom"></div>
+                      <p>Курс предоставляется вам навсегда, без каких-либо лимитов и ограничений по времени. Занимайтесь тогда, когда вам удобно.</p>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                  <div class="h-100 p-3 bg-gray text-white">
+                      <div class="circle-custom">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#eebb12" class="bi bi-filetype-html" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5Zm-9.736 7.35v3.999h-.791v-1.714H1.79v1.714H1V11.85h.791v1.626h1.682V11.85h.79Zm2.251.662v3.337h-.794v-3.337H4.588v-.662h3.064v.662H6.515Zm2.176 3.337v-2.66h.038l.952 2.159h.516l.946-2.16h.038v2.661h.715V11.85h-.8l-1.14 2.596H9.93L8.79 11.85h-.805v3.999h.706Zm4.71-.674h1.696v.674H12.61V11.85h.79v3.325Z"/>
+                          </svg>
+                      </div>
+                      <h5 class="text-center">Практические задания</h5>
+                      <div class="line-custom"></div>
+                      <p>По завершении курса у вас будет опыт создания множества современных интерактивных элементов для сайта.</p>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                  <div class="h-100 p-3 bg-gray text-white">
+                      <div class="circle-custom">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#eebb12" class="bi bi-camera-video" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"/>
+                          </svg>
+                      </div>
+                      <h5 class="text-center">Огромный объем информации</h5>
+                      <div class="line-custom"></div>
+                      <p>Видео курс включает в себя 65 уроков общей продолжительностью 20 часов и 114 готовых примеров кода.</p>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                  <div class="h-100 p-3 bg-gray text-white">
+                      <div class="circle-custom">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#eebb12" class="bi bi-people-fill" viewBox="0 0 16 16">
+                              <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                              <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+                              <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+                          </svg>
+                      </div>
+                      <h5 class="text-center">Поддержка от автора</h5>
+                      <div class="line-custom"></div>
+                      <p>Вы будете получать необходимую обратную связь от автора курса. Вопросы можно задавать на платформе Stepik.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="row justify-content-center text-center text-white">
+              <div class="col-8">
+                  <p>На YouTube доступно более 5 часов материалов из данного курса абсолютно бесплатно. Вы можете изучить этот материал и после этого принять решение о покупке данного видео курса.</p>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/HU78HrKW9XI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="for-who ptb100">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <h2 class="text-uppercase yellow-color text-center mb-5">Курс для тех, кто</h2>
+              </div>
+          </div>
+          <div class="row mb-5 gy-3">
+              <div class="col-md-6 col-sm-12">
+                  <h5 class="text-center text-white bg-gray h-100">только начинает свой путь в мире web-технологий и программирования</h5>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                  <h5 class="text-center text-white bg-gray h-100">уже знает HTML и CSS, но хочет изучать что-то новое и более крутое</h5>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                  <h5 class="text-center text-white bg-gray h-100">хочет получить востребованную и хорошо оплачиваемую профессию</h5>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                  <h5 class="text-center text-white bg-gray h-100">хочет научиться создавать интерактивные графические интерфейсы для своих web-приложений</h5>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col">
+                  <a href="#footer" class="btn btn-warning btn-lg mx-auto btn-custom text-uppercase">Заказать</a>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="programm bg-gray ptb100">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-12">
+                  <h2 class="text-uppercase yellow-color text-center">Программа курса</h2>
+              </div>
+              <div class="col-10">
+                  <p class="text-white text-center"> Курс состоит из 65 занятий, которые объединены в 4 главы, где будет рассмотрено 114 практических примера. Длительность курса составляет 
+                      20 часов. Супер JavaScript — практический видеокурс: в каждой главе теоретический материал будет закрепляться множеством наглядных примеров кода.</p>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-12 col-md-6 col-xl-3 mb-3">
+                  <h2 class="yellow-color text-uppercase">Глава 1</h2>
+                  <p class="text-white fw-bold">Основы языка JavaScript</p>
+                  <p class="yellow-color">12 занятий</p>
+                  <div class="accordion" id="accordion1">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading1">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                            Введение
+                          </button>
+                        </h2>
+                        <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion1">
+                          <div class="accordion-body">
+                            <i>В этом уроке мы создадим свой первый скрипт на языке JavaScript и научимся пользоваться консолью разработчика в браузере.</i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading2">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            Переменные
+                          </button>
+                        </h2>
+                        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion1">
+                          <div class="accordion-body">
+                            <i>Вы узнаете про строковый и логический тип данных и научимся записывать разные значения в переменные.</i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading3">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            Строки
+                          </button>
+                        </h2>
+                        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion1">
+                          <div class="accordion-body">
+                            <i>Рассмотрим шаблонные строки, научимся создавать случайные числа и округлять любые числа с помощью специальных математических функций.</i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                              Массивы
+                            </button>
+                          </h2>
+                          <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion1">
+                            <div class="accordion-body">
+                              <i>В этом уроке вы узнаете, что такое массив, как его создать, для чего он нужен и освоите разные приемы необходимые для работы с массивами.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                              Объекты
+                            </button>
+                          </h2>
+                          <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordion1">
+                            <div class="accordion-body">
+                              <i> В этом уроке вы узнаете, что такое объекты на JavaScript. Мы рассмотрим их сходства с массивами и отличия от массивов на JavaScript, научимся 
+                                  работать с объектами, создавать, удалять изменять и многое другое.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                              Условия
+                            </button>
+                          </h2>
+                          <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordion1">
+                            <div class="accordion-body">
+                              <i>В этом уроке мы научимся пользоваться диалоговыми окнами, создавать условные конструкции и применять оператор Switch.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading7">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                              Циклы
+                            </button>
+                          </h2>
+                          <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordion1">
+                            <div class="accordion-body">
+                              <i>Я расскажу вам про 5 видов циклов на языке JavaScript и покажу на примерах для чего они нужны и как их создавать.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading8">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                              Функции
+                            </button>
+                          </h2>
+                          <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordion1">
+                            <div class="accordion-body">
+                              <i>Мы научимся создавать свои собственные функции, а так же решим 6 задач и закрепим полученные в предыдущих уроках знания.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading9">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                              Дата и время
+                            </button>
+                          </h2>
+                          <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordion1">
+                            <div class="accordion-body">
+                              <i>Я расскажу как работать с датой и временем на языке JavaScript, а так же вы получите шпаргалку по работе с объектом Date, разработанную мной.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading10">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                              Документация кода
+                            </button>
+                          </h2>
+                          <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordion1">
+                            <div class="accordion-body">
+                              <i>В этом уроке я расскажу как правильно документировать свой код с помощью JSDoc, а так же мы рассмотрим обработку исключений.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading11">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                              ООП
+                            </button>
+                          </h2>
+                          <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#accordion1">
+                            <div class="accordion-body">
+                              <i>В этом уроке я расскажу вам про объектно-ориентированный подход в программировании на языке JavaScript. Научу вас создавать классы и объекты.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading12">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                              ECMAScript 2015
+                            </button>
+                          </h2>
+                          <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordion1">
+                            <div class="accordion-body">
+                              <i> В дополнение к основам JavaScript я расскажу вам про некоторые отличные возможности стандарта ES6 который уже отлично поддерживается почти всеми браузерами. 
+                                  В этом уроке мы рассмотрим такие темы как: Babel, Константы, Оператор расширения, Деструктивное присваивание, Стрелочные функции, Сохранение контекста, 
+                                  Двоичные числа, Восьмеричные числа, Проверка на целое число, Проверка на число и значение NaN, Тригонометрические и Алгебраические методы, Определение знака числа,
+                                  Повторение строки, Поиск в строке, Заполнение массива, Ключи и значения массива, Множества, Удаление дубликатов в массиве.</i>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-3 mb-3">
+                  <h2 class="yellow-color text-uppercase">Глава 2</h2>
+                  <p class="text-white fw-bold">Работа с DOM деревом</p>
+                  <p class="yellow-color">15 занятий</p>
+                  <div class="accordion" id="accordion2">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading2_1">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_1" aria-expanded="true" aria-controls="collapse2_1">
+                            Выбор элемента DOM
+                          </button>
+                        </h2>
+                        <div id="collapse2_1" class="accordion-collapse collapse show" aria-labelledby="heading2_1" data-bs-parent="#accordion2">
+                          <div class="accordion-body">
+                            <i>В этом уроке мы начнем знакомство с DOM деревом, и узнаем как можно найти HTML элементы на языке JavaScript для дальнейшей работы с этим элементом.</i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading2_2">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_2" aria-expanded="false" aria-controls="collapse2_2">
+                            Атрибуты
+                          </button>
+                        </h2>
+                        <div id="collapse2_2" class="accordion-collapse collapse" aria-labelledby="heading2_2" data-bs-parent="#accordion2">
+                          <div class="accordion-body">
+                            <i> Я расскажу вам как работать с HTML атрибутами на языке JavaScript. Мы научимся добавлять, удалять, заменять атрибуты и их значения. 
+                                А так же мы научимся создавать свои новые элементы.</i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading2_3">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_3" aria-expanded="false" aria-controls="collapse2_3">
+                            Вложенный список
+                          </button>
+                        </h2>
+                        <div id="collapse2_3" class="accordion-collapse collapse" aria-labelledby="heading2_3" data-bs-parent="#accordion2">
+                          <div class="accordion-body">
+                            <i>В этом уроке мы научимся генерировать вложенный список UL из обычного JavaScript объекта.</i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading2_4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_4" aria-expanded="false" aria-controls="collapse2_4">
+                              Календарь
+                            </button>
+                          </h2>
+                          <div id="collapse2_4" class="accordion-collapse collapse" aria-labelledby="heading2_4" data-bs-parent="#accordion2">
+                            <div class="accordion-body">
+                              <i> Создадим функцию, которая будет генерировать календарь на любой месяц любого года. Эту функцию можно использовать повторно любое количество раз и она будет 
+                                  отрисовывать календарь каждый раз для того месяца который вы передадите в параметрах функции.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading2_5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_5" aria-expanded="false" aria-controls="collapse2_5">
+                              Сортировка таблицы
+                            </button>
+                          </h2>
+                          <div id="collapse2_5" class="accordion-collapse collapse" aria-labelledby="heading2_5" data-bs-parent="#accordion2">
+                            <div class="accordion-body">
+                              <i> В этом уроке мы создадим простой скрипт с помощью которого можно будет отсортировать любую таблицу на странице по выбранному столбцу.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading2_6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_6" aria-expanded="false" aria-controls="collapse2_6">
+                              Часы
+                            </button>
+                          </h2>
+                          <div id="collapse2_6" class="accordion-collapse collapse" aria-labelledby="heading2_6" data-bs-parent="#accordion2">
+                            <div class="accordion-body">
+                              <i>Напишем скрипт который будет генерировать время на странице.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading2_7">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_7" aria-expanded="false" aria-controls="collapse2_7">
+                              CSS классы и метрики
+                            </button>
+                          </h2>
+                          <div id="collapse2_7" class="accordion-collapse collapse" aria-labelledby="heading2_7" data-bs-parent="#accordion2">
+                            <div class="accordion-body">
+                              <i> В этом уроке я расскажу вам, как работать с CSS классами из JavaScript. Мы научимся удалять, добавлять и проверять наличие класса у элемента. 
+                                  Так же поговорим про метрики и рассмотрим для чего они нужны.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading2_8">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_8" aria-expanded="false" aria-controls="collapse2_8">
+                              Таблица из объекта
+                            </button>
+                          </h2>
+                          <div id="collapse2_8" class="accordion-collapse collapse" aria-labelledby="heading2_8" data-bs-parent="#accordion2">
+                            <div class="accordion-body">
+                              <i> В этом уроке мы научимся создавать таблицу из массива данных на JavaScript. Мы воспользуемся методом массива forEach и тернарным оператором для 
+                                  достижения желаемого результата.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading2_9">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_9" aria-expanded="false" aria-controls="collapse2_9">
+                              Номера из объекта
+                            </button>
+                          </h2>
+                          <div id="collapse2_9" class="accordion-collapse collapse" aria-labelledby="heading2_9" data-bs-parent="#accordion2">
+                            <div class="accordion-body">
+                              <i> Решим похожую задачу но будем создавать таблицу не из массива, а из объекта. Рассмотрим как можно объединять ячейки таблицы из кода и закрепим 
+                                  ранее полученные знания в Главе 1.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading2_10">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_10" aria-expanded="false" aria-controls="collapse2_10">
+                              Сортировка
+                            </button>
+                          </h2>
+                          <div id="collapse2_10" class="accordion-collapse collapse" aria-labelledby="heading2_10" data-bs-parent="#accordion2">
+                            <div class="accordion-body">
+                              <i>В этом уроке мы поработаем с многомерными структурами данных на JavaScript и сгенерируем таблицу с отсортированными данными.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading2_11">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_11" aria-expanded="false" aria-controls="collapse2_11">
+                              Карточки
+                            </button>
+                          </h2>
+                          <div id="collapse2_11" class="accordion-collapse collapse" aria-labelledby="heading2_11" data-bs-parent="#accordion2">
+                            <div class="accordion-body">
+                              <i>Создадим универсальную функцию, которая будет генерировать карточки с информацией о пользователях.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading2_12">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_12" aria-expanded="false" aria-controls="collapse2_12">
+                              Дни рождения 
+                            </button>
+                          </h2>
+                          <div id="collapse2_12" class="accordion-collapse collapse" aria-labelledby="heading2_12" data-bs-parent="#accordion2">
+                            <div class="accordion-body">
+                              <i> Научимся выводить карточки с днями рождения пользователей и добавлять в каждый месяц соответствующие данные о пользователе. Так же мы предусмотрим разные 
+                                  ситуации и обработаем их на JavaScript, чтобы избежать возникновения ошибок.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading2_13">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_13" aria-expanded="false" aria-controls="collapse2_13">
+                              Таймер
+                            </button>
+                          </h2>
+                          <div id="collapse2_13" class="accordion-collapse collapse" aria-labelledby="heading2_13" data-bs-parent="#accordion2">
+                            <div class="accordion-body">
+                              <i>Создадим функцию, которая будет генерировать прогресс бар для указанного нами времени обратного отсчета.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading2_14">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_14" aria-expanded="false" aria-controls="collapse2_14">
+                              Генератор имён
+                            </button>
+                          </h2>
+                          <div id="collapse2_14" class="accordion-collapse collapse" aria-labelledby="heading2_14" data-bs-parent="#accordion2">
+                            <div class="accordion-body">
+                              <i> Создадим функцию которая позволит нам генерировать интересные никнеймы из двух массивов с прилагательными и существительными. Так же реализуем отображение
+                                  случайных сгенерированных имен по несколько секунд, а так же возможность отобразить все результирующие элементы.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading2_15">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_15" aria-expanded="false" aria-controls="collapse2_15">
+                              Локальное хранилище
+                            </button>
+                          </h2>
+                          <div id="collapse2_15" class="accordion-collapse collapse" aria-labelledby="heading2_15" data-bs-parent="#accordion2">
+                            <div class="accordion-body">
+                              <i> В этом уроке я научу вас работать с localStorage на языке JavaScript. Локальное хранилище позволит нам записывать различные данные и не терять 
+                                  их даже после перезагрузки браузера или компьютера.</i>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-3 mb-3">
+                  <h2 class="yellow-color text-uppercase">Глава 3</h2>
+                  <p class="text-white fw-bold">Обработка события</p>
+                  <p class="yellow-color">26 занятий</p>
+                  <div class="accordion" id="accordion3">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading3_1">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_1" aria-expanded="true" aria-controls="collapse3_1">
+                            Обработчики событий 
+                          </button>
+                        </h2>
+                        <div id="collapse3_1" class="accordion-collapse collapse show" aria-labelledby="heading3_1" data-bs-parent="#accordion3">
+                          <div class="accordion-body">
+                            <i>В этом уроке мы начнем знакомство с обработчиками событий на языке JavaScript.</i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading3_2">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_2" aria-expanded="false" aria-controls="collapse3_2">
+                            Скрыть/показать элементы
+                          </button>
+                        </h2>
+                        <div id="collapse3_2" class="accordion-collapse collapse" aria-labelledby="heading3_2" data-bs-parent="#accordion3">
+                          <div class="accordion-body">
+                            <i>Рассмотрим как можно скрыть и показать любой элемент на сайте с помощью JavaScript.</i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading3_3">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_3" aria-expanded="false" aria-controls="collapse3_3">
+                            Простой слайдер
+                          </button>
+                        </h2>
+                        <div id="collapse3_3" class="accordion-collapse collapse" aria-labelledby="heading3_3" data-bs-parent="#accordion3">
+                          <div class="accordion-body">
+                            <i>В этом уроке мы создадим простой слайдера изображений и рассмотрим основные принципы манипуляции с элементами, классами и атрибутами.</i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading3_4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_4" aria-expanded="false" aria-controls="collapse3_4">
+                              Тёмная тема
+                            </button>
+                          </h2>
+                          <div id="collapse3_4" class="accordion-collapse collapse" aria-labelledby="heading3_4" data-bs-parent="#accordion3">
+                            <div class="accordion-body">
+                              <i> Рассмотрим как можно создать тёмную тему для своего сайта, настроим переключатель для смены темы и реализуем функционал сохранения состояния темы, 
+                                  даже после перезагрузки браузера с помощью локального хранилища.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading3_5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_5" aria-expanded="false" aria-controls="collapse3_5">
+                              Не jQuery
+                            </button>
+                          </h2>
+                          <div id="collapse3_5" class="accordion-collapse collapse" aria-labelledby="heading3_5" data-bs-parent="#accordion3">
+                            <div class="accordion-body">
+                              <i> В этом уроке я покажу, как можно создать свой JavaScript класс для упрощения работы с элементами DOM. С помощью этого класса мы сможем создавать объекты, 
+                                  которые будут являться DOM элементами и так же у этих объектов будет несколько интересных методов и свойств, которые мы реализуем в классе.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading3_6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_6" aria-expanded="false" aria-controls="collapse3_6">
+                              Делегирование
+                            </button>
+                          </h2>
+                          <div id="collapse3_6" class="accordion-collapse collapse" aria-labelledby="heading3_6" data-bs-parent="#accordion3">
+                            <div class="accordion-body">
+                              <i> Я расскажу вам про фазы срабатывания событий на языке JavaScript и научу пользоваться мощным приемом разработки - делегированием. 
+                                  Делегирование - это один из главных приемов работы с событиями, который необходимо освоить в первую очередь.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading3_7">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_7" aria-expanded="false" aria-controls="collapse3_7">
+                              Счётчик
+                            </button>
+                          </h2>
+                          <div id="collapse3_7" class="accordion-collapse collapse" aria-labelledby="heading3_7" data-bs-parent="#accordion3">
+                            <div class="accordion-body">
+                              <i> В этом уроке мы создадим свой элемент у которого будет характерное только для него поведение.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading3_8">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_8" aria-expanded="false" aria-controls="collapse3_8">
+                              Переключатель
+                            </button>
+                          </h2>
+                          <div id="collapse3_8" class="accordion-collapse collapse" aria-labelledby="heading3_8" data-bs-parent="#accordion3">
+                            <div class="accordion-body">
+                              <i> Рассмотрим еще один часто используемый тип поведения и реализуем функционал переключателя.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading3_9">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_9" aria-expanded="false" aria-controls="collapse3_9">
+                              Удаление карточек
+                            </button>
+                          </h2>
+                          <div id="collapse3_9" class="accordion-collapse collapse" aria-labelledby="heading3_9" data-bs-parent="#accordion3">
+                            <div class="accordion-body">
+                              <i> В этом уроке мы преобразуем код из главы 2 и будем использовать прием делегирование, чтобы оптимизировать ранее написанный без этих знаний код.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading3_10">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_10" aria-expanded="false" aria-controls="collapse3_10">
+                              Разворачиваемые подменю
+                            </button>
+                          </h2>
+                          <div id="collapse3_10" class="accordion-collapse collapse" aria-labelledby="heading3_10" data-bs-parent="#accordion3">
+                            <div class="accordion-body">
+                              <i>За основу мы возьмем код из главы 2 и усовершенствуем его, добавив возможность сворачивать и разворачивать элементы списка, который генерируется из объекта.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading3_11">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_11" aria-expanded="false" aria-controls="collapse3_11">
+                              Сортировка таблицы
+                            </button>
+                          </h2>
+                          <div id="collapse3_11" class="accordion-collapse collapse" aria-labelledby="heading3_11" data-bs-parent="#accordion3">
+                            <div class="accordion-body">
+                              <i> Улучшим код из главы 2, где мы реализовали сортировку таблицы по фиксированному столбцу. Но в этом уроке мы сделаем возможность 
+                                  сортировки таблицы при нажатии на заголовок любого столбца таблицы.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading3_12">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_12" aria-expanded="false" aria-controls="collapse3_12">
+                              Всплывающие подсказки
+                            </button>
+                          </h2>
+                          <div id="collapse3_12" class="accordion-collapse collapse" aria-labelledby="heading3_12" data-bs-parent="#accordion3">
+                            <div class="accordion-body">
+                              <i>В этом уроке мы научимся работать с событиями мыши, которые срабатывают при наведении на элемент и сделаем всплывающую подсказку при наведении на элемент.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading3_13">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_13" aria-expanded="false" aria-controls="collapse3_13">
+                              Отмена стандартного поведения
+                            </button>
+                          </h2>
+                          <div id="collapse3_13" class="accordion-collapse collapse" aria-labelledby="heading3_13" data-bs-parent="#accordion3">
+                            <div class="accordion-body">
+                              <i>Я расскажу как отменить стандартное поведение различных элементов DOM, мы рассмотрим для чего это нужно и как можно использовать на JavaScript.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading3_14">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_14" aria-expanded="false" aria-controls="collapse3_14">
+                              Сочетание клавиш
+                            </button>
+                          </h2>
+                          <div id="collapse3_14" class="accordion-collapse collapse" aria-labelledby="heading3_14" data-bs-parent="#accordion3">
+                            <div class="accordion-body">
+                              <i> В этом уроке я расскажу вам про то как отслеживать нажатые клавиши CTRL, SHIFT, ALT, CMD при разных событиях. Это поможет нам выполнять
+                                  обработку событий только если произошло нажатие нескольких клавиш.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading3_15">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_15" aria-expanded="false" aria-controls="collapse3_15">
+                              Выделение через CTRL
+                            </button>
+                          </h2>
+                          <div id="collapse3_15" class="accordion-collapse collapse" aria-labelledby="heading3_15" data-bs-parent="#accordion3">
+                            <div class="accordion-body">
+                              <i>В этом уроке мы сделаем список, элементы которого можно выделять как по одиночке так и несколько сразу используя зажатый CTRL.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading3_16">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_16" aria-expanded="true" aria-controls="collapse3_16">
+                              Range-слайдер
+                            </button>
+                          </h2>
+                          <div id="collapse3_16" class="accordion-collapse collapse" aria-labelledby="heading3_16" data-bs-parent="#accordion3">
+                            <div class="accordion-body">
+                              <i>Рассмотрим как создать свой собственный слайдер для выбора значения. Это будет аналог input с типом range, но мы сможем стилизовать этот ползунок так как захотим.</i>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading3_17">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_17" aria-expanded="false" aria-controls="collapse3_17">
+                              События клавиатуры
+                            </button>
+                          </h2>
+                          <div id="collapse3_17" class="accordion-collapse collapse" aria-labelledby="heading3_17" data-bs-parent="#accordion3">
+                            <div class="accordion-body">
+                              <i>В этом уроке рассмотрим основные события клавиатуры и научимся с ними работать.</i>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading3_18">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_18" aria-expanded="false" aria-controls="collapse3_18">
+                              Работа с формами
+                            </button>
+                          </h2>
+                          <div id="collapse3_18" class="accordion-collapse collapse" aria-labelledby="heading3_18" data-bs-parent="#accordion3">
+                            <div class="accordion-body">
+                              <i> Расккажу как работать с формами на JavaScript. Мы научимся получать данные из разных элементов формы.
+                                  Из чекбоксов, радио кнопок, селектов и многое другое что связано с формами.</i>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3_19">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_19" aria-expanded="false" aria-controls="collapse3_19">
+                                Фокус и потеря фокуса
+                              </button>
+                            </h2>
+                            <div id="collapse3_19" class="accordion-collapse collapse" aria-labelledby="heading3_19" data-bs-parent="#accordion3">
+                              <div class="accordion-body">
+                                <i>Познакомимся с событиями фокуса и потери фокуса у элементов форм и научимся их обрабатывать.</i>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3_20">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_20" aria-expanded="false" aria-controls="collapse3_20">
+                                Перемещение по стрелкам
+                              </button>
+                            </h2>
+                            <div id="collapse3_20" class="accordion-collapse collapse" aria-labelledby="heading3_20" data-bs-parent="#accordion3">
+                              <div class="accordion-body">
+                                <i> Реализуем возможность HTML элемента быть под вокусом даже если это не элемент формы и сделаем возможноть перемещения элемента на странице по клавишам-стрелкам.</i>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3_21">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_21" aria-expanded="false" aria-controls="collapse3_21">
+                                События форм
+                              </button>
+                            </h2>
+                            <div id="collapse3_21" class="accordion-collapse collapse" aria-labelledby="heading3_21" data-bs-parent="#accordion3">
+                              <div class="accordion-body">
+                                <i>В этом уроке мы изучим дополнительные события форм, а также события буфера обмена.</i>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3_22">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_22" aria-expanded="false" aria-controls="collapse3_22">
+                                  События страницы
+                              </button>
+                            </h2>
+                            <div id="collapse3_22" class="accordion-collapse collapse" aria-labelledby="heading3_22" data-bs-parent="#accordion3">
+                              <div class="accordion-body">
+                                <i>В этом уроке рассмотрим события жизенного цикла страницы, а также способ подключения скриптов с использованием атрибутов async и defer.</i>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3_23">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_23" aria-expanded="false" aria-controls="collapse3_23">
+                                Диапазон и выделение
+                              </button>
+                            </h2>
+                            <div id="collapse3_23" class="accordion-collapse collapse" aria-labelledby="heading3_23" data-bs-parent="#accordion3">
+                              <div class="accordion-body">
+                                <i>Мы научимся работать с диапазонами Range и выделением Selection на языке JavaScript.</i>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3_24">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_24" aria-expanded="false" aria-controls="collapse3_24">
+                                Депозитный калькулятор
+                              </button>
+                            </h2>
+                            <div id="collapse3_24" class="accordion-collapse collapse" aria-labelledby="heading3_24" data-bs-parent="#accordion3">
+                              <div class="accordion-body">
+                                <i>Напишем свой собственный простой депозитный калькулятор и реализуем работу с формами для ввода пользовательских данных и отображение результата в виде столбчатых гистограм.</i>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3_25">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_25" aria-expanded="false" aria-controls="collapse3_25">
+                                Генератор CSS тени
+                              </button>
+                            </h2>
+                            <div id="collapse3_25" class="accordion-collapse collapse" aria-labelledby="heading3_25" data-bs-parent="#accordion3">
+                              <div class="accordion-body">
+                                <i> Создадим генератор CSS тени для быстрого и удобного подбора необходимых параметров свойства box-shadow. Создадим интерактивный интерфейс с 
+                                    возможностью все настраивать с помощью ползунокв, чекбоксов и инпутов с разными типами.</i>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3_26">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_26" aria-expanded="false" aria-controls="collapse3_26">
+                                Система уведомлений 
+                              </button>
+                            </h2>
+                            <div id="collapse3_26" class="accordion-collapse collapse" aria-labelledby="heading3_26" data-bs-parent="#accordion3">
+                              <div class="accordion-body">
+                                <i> В этом уроке мы создадим свою систему уведомлений с нуля на языке JavaScript. Реализуем множество интересных функций по отображению и удалению уведомлений, 
+                                    все уведомления будем сохранять в локальном хранилище и при срабатывании будем воспроизводить звук уведомления.</i>
+                              </div>
+                            </div>
+                        </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-3 mb-3">
+                  <h2 class="yellow-color text-uppercase">Глава 4</h2>
+                  <p class="text-white fw-bold">Дополнительно</p>
+                  <p class="yellow-color">12 занятий</p>
+                  <div class="accordion" id="accordion4">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading4_1">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4_1" aria-expanded="true" aria-controls="collapse4_1">
+                            Работа с FileReader
+                          </button>
+                        </h2>
+                        <div id="collapse4_1" class="accordion-collapse collapse show" aria-labelledby="heading4_1" data-bs-parent="#accordion4">
+                          <div class="accordion-body">
+                            <i>В этом уроке мы будем работать с текстовыми файлами и научимся считывать данные из файла на языке JavaScript.</i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading4_2">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4_2" aria-expanded="false" aria-controls="collapse4_2">
+                            Анимация на JS и CSS
+                          </button>
+                        </h2>
+                        <div id="collapse4_2" class="accordion-collapse collapse" aria-labelledby="heading4_2" data-bs-parent="#accordion4">
+                          <div class="accordion-body">
+                            <i>Рассмотрим как создается анимация на языке JavaScript с помощью каскадных таблиц стилей CSS.</i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading4_3">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4_3" aria-expanded="false" aria-controls="collapse4_3">
+                            Регулярные выражения 
+                          </button>
+                        </h2>
+                        <div id="collapse4_3" class="accordion-collapse collapse" aria-labelledby="heading4_3" data-bs-parent="#accordion4">
+                          <div class="accordion-body">
+                            <i>Самый длинный урок в этом курсе посвящен регулярным выражениям. Регулярные выражения это мощный инструмент для поиска и замены текста в строках.</i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading4_4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4_4" aria-expanded="false" aria-controls="collapse4_4">
+                              Поиск и сортировка списка
+                            </button>
+                          </h2>
+                          <div id="collapse4_4" class="accordion-collapse collapse" aria-labelledby="heading4_4" data-bs-parent="#accordion4">
+                            <div class="accordion-body">
+                              <i>В этом уроке мы научимся работать с библиотекой List.js. Эта библиотека позволяет создавать из обычных HTML списков, структуры с возможностью поиска и сортировки.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading4_5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4_5" aria-expanded="false" aria-controls="collapse4_5">
+                              Модальные окна 
+                            </button>
+                          </h2>
+                          <div id="collapse4_5" class="accordion-collapse collapse" aria-labelledby="heading4_5" data-bs-parent="#accordion4">
+                            <div class="accordion-body">
+                              <i>Библиотека sweetalert2.js позволяет очень просто создавать различные модальные всплывающие окна. Я покажу как подключить эту библиотеку и настроить у себя всплывающее окно.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading4_6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4_6" aria-expanded="false" aria-controls="collapse4_6">
+                              Всплывающие подсказки
+                            </button>
+                          </h2>
+                          <div id="collapse4_6" class="accordion-collapse collapse" aria-labelledby="heading4_6" data-bs-parent="#accordion4">
+                            <div class="accordion-body">
+                              <i>Чтобы создать всплывающую подсказку возле любого HTML блока мы воспользуемся библиотекой popper.js</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading4_7">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4_7" aria-expanded="false" aria-controls="collapse4_7">
+                              Галерея изображения 1 
+                            </button>
+                          </h2>
+                          <div id="collapse4_7" class="accordion-collapse collapse" aria-labelledby="heading4_7" data-bs-parent="#accordion4">
+                            <div class="accordion-body">
+                              <i>Для создания галереии изображений существует простая библиотека baguetteBox.js, с помощью которой можно очень быстро и просто создать галерею у себя на сайте.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading4_8">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4_8" aria-expanded="false" aria-controls="collapse4_8">
+                              Галерея изображения 2 
+                            </button>
+                          </h2>
+                          <div id="collapse4_8" class="accordion-collapse collapse" aria-labelledby="heading4_8" data-bs-parent="#accordion4">
+                            <div class="accordion-body">
+                              <i> Библиотека lightgallery.js включает в себя более расширенный функционал для создания галереии изображений. Мы рассмотрим как работать с ней для того, чтобы 
+                                  вы могли выбирать способ создания галереии в зависимости от необходимого функционала.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading4_9">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4_9" aria-expanded="false" aria-controls="collapse4_9">
+                              Календарь 
+                            </button>
+                          </h2>
+                          <div id="collapse4_9" class="accordion-collapse collapse" aria-labelledby="heading4_9" data-bs-parent="#accordion4">
+                            <div class="accordion-body">
+                              <i>С помощью библиотеки flatpickr.js можно очень быстро и просто создать календарь у себя на сайте и настроить для него различные фильтры и ограничения.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading4_10">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4_10" aria-expanded="false" aria-controls="collapse4_10">
+                              Валидация формы 
+                            </button>
+                          </h2>
+                          <div id="collapse4_10" class="accordion-collapse collapse" aria-labelledby="heading4_10" data-bs-parent="#accordion4">
+                            <div class="accordion-body">
+                              <i>Библиотека Cleave.js позволяет очень просто настроить валидацию формы для таких типов данных как дата, номер телефона, номер банковской карты и время.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading4_11">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4_11" aria-expanded="false" aria-controls="collapse4_11">
+                              Фильтрация и сортировка
+                            </button>
+                          </h2>
+                          <div id="collapse4_11" class="accordion-collapse collapse" aria-labelledby="heading4_11" data-bs-parent="#accordion4">
+                            <div class="accordion-body">
+                              <i> С помощью библиотеки mixItUp3.js можно настроить сортировку и фильтрацию любых элементов у себя на сайте, это может быть каталог товаров или список 
+                                  фильмов все зависит только от ваших задач.</i>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading4_12">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4_12" aria-expanded="false" aria-controls="collapse4_12">
+                              Слайдер
+                            </button>
+                          </h2>
+                          <div id="collapse4_12" class="accordion-collapse collapse" aria-labelledby="heading4_12" data-bs-parent="#accordion4">
+                            <div class="accordion-body">
+                              <i>Чтобы создать слайдер любой сложности можно воспользоваться библиотекой Swiper.js, которая написана без каких либо зависимостей от других скриптов и позволяет делать слайдеры любой сложности.</i>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="faq ptb100 bg-black">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-12">
+                  <h2 class="yellow-color text-center">FAQ</h2>
+              </div>
+              <div class="col-10">
+                  <h5 class="yellow-color">Куда я могу обратиться, если в процессе обучения у меня возникнут вопросы?</h5>
+                  <p class="text-white">Любые вопросы, которые у вас возникают по ходу прохождения курса, вы можете задавать на платформе Stepik.</p>
+                  <h5 class="yellow-color">Какое оборудование мне понадобится для обучения?</h5>
+                  <p class="text-white">Вам нужен любой ноутбук или компьютер, который поддерживает работу в браузере и выход в интернет для просмотра уроков.</p>
+                  <h5 class="yellow-color">Какие программы мне потребуются?</h5>
+                  <p class="text-white"> Вам нужен любой современный редактор кода, например <a class="yellow-color" href="https://code.visualstudio.com/" target="_blank">VS Code</a> и 
+                      браузер например <a class="yellow-color" href="https://www.google.ru/chrome/" target="_blank">Google Chrome</a>, но вы можете использовать и другие.</p>
+                  <h5 class="yellow-color">Предоставляется ли ссылка на скачку архива с уроками курса после его оплаты?</h5>
+                  <p class="text-white">Ссылка на скачку архива с уроками курса не предоставляется, уроки курса вы можете смотреть по мере прохождения курса на платформе Stepik.</p>
+                  <h5 class="yellow-color">Могу ли я смотреть курс со смартфона?</h5>
+                  <p class="text-white"> Я старался делать шрифт и масштаб интерфейса редактора и браузера таким образом, чтобы можно было увидеть все даже с мобильного устройства. 
+                      Но вам будет намного удобней просматривать видео за своим компьютером или ноутбуком.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="superjs bg-gray ptb100">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <h2 class="text-uppercase yellow-color text-center mb-5">Супер JavaScript</h2>
+              </div>
+          </div>
+          <div class="row justify-content-center align-items-center">
+              <div class="col-lg-6 col-sm-12">
+                  <img src="images/preview.png" alt="bookJS" class="img-fluid">
+              </div>
+              <div class="col-lg-6 col-sm-12 text-white">
+                  <p>Самый полный обучающий курс по изучению языка программирования JavaScript от автора образовательного канала ITDoctor</p>
+                  <ul>
+                      <li>65 практических уроков</li>
+                      <li>Продолжительность 20 часов</li>
+                      <li>114 примеров кода</li>
+                      <li>Никаких ограничений по времени</li>
+                      <li>Домашние задания</li>
+                  </ul>
+                  <a href="https://stepik.org/z/113653" target="_blank" class="btn btn-warning btn-lg mx-auto btn-custom text-uppercase">Купить</a>
+              </div>
+          </div>
+      </div>
+  </section> 
+  <footer class="footer bg-black" id="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 col-md-6">
+                  <img class="img-fluid" src="images/logo.png" alt="Logo">
+                  <p class="text-white">© ITDoctor, 2021</p>
+              </div>
+              <div class="col-12 col-md-6">
+                  <div class="text-md-end">
+                      <a class="me-1" href="https://www.youtube.com/c/ITDoctor/about" target="_blank">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" class="bi bi-youtube" viewBox="0 0 16 16">
+                              <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                          </svg>
+                      </a>
+                      <a class="me-1" href="https://t.me/itdoctorstudio" target="_blank">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" class="bi bi-telegram" viewBox="0 0 16 16">
+                              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                          </svg>
+                      </a>
+                      <a class="me-1" href="https://instagram.com/ismail_asanovich/" target="_blank">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" class="bi bi-instagram" viewBox="0 0 16 16">
+                              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                          </svg>
+                      </a>
+                      <a class="me-1" href="https://github.com/morphIsmail" target="_blank">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" class="bi bi-github" viewBox="0 0 16 16">
+                              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                          </svg>
+                      </a>
+                      <a class="mail-link" target="_blank" href="mailto:ismail_2016@mail.ru?subject=%D0%92%D0%BE%D0%BF%D1%80%D0%BE%D1%81%20%D0%BF%D0%BE%20%D0%BA%D1%83%D1%80%D1%81%D1%83%20%27%D0%A1%D1%83%D0%BF%D0%B5%D1%80%20JavaScript%27&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5,%20%D1%83%D0%B2%D0%B0%D0%B6%D0%B0%D0%B5%D0%BC%D1%8B%D0%B9%20ITDoctor,">ismail_2016@mail.ru</a>
+                      <p class="text-white">По всем вопросам в любое время</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

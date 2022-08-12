@@ -44,9 +44,15 @@ p {
   height: 70px;
   border: 3px solid #eebb12;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .line-custom {
@@ -78,6 +84,8 @@ iframe {
 
 .faq a:hover {
   color: #977f2d;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
   transition: .5s;
 }
 
